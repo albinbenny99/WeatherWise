@@ -1,0 +1,109 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-10 14:16+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\home\views.py:13 .\templates\index.html:9
+msgid "Enter a City Name"
+msgstr " ഒരു നഗരത്തിൻ്റെ പേര് നൽകുക"
+
+#: .\home\views.py:14 .\templates\index.html:19
+msgid "Current Weather"
+msgstr "നിലവിലെ കാലാവസ്ഥ"
+
+#: .\home\views.py:15
+msgid "Temperature:"
+msgstr "താപനില:"
+
+#: .\home\views.py:16
+msgid "Wind:"
+msgstr "കാറ്റ്:"
+
+#: .\home\views.py:17
+msgid "Humidity:"
+msgstr "ഈർപ്പം:"
+
+#: .\home\views.py:18 .\templates\index.html:26
+msgid "5-Day Forecast"
+msgstr "5-ദിന പ്രവചനം"
+
+#: .\home\views.py:19 .\templates\index.html:12
+msgid "Search"
+msgstr "തിരയുക"
+
+#: .\home\views.py:20 .\templates\index.html:14
+msgid "Use Current Location"
+msgstr "നിലവിലെ സ്ഥാനം ഉപയോഗിക്കുക"
+
+#: .\home\views.py:21
+msgid "Day 1"
+msgstr "ദിവസം 1"
+
+#: .\home\views.py:21
+msgid "Day 2"
+msgstr "ദിവസം 2"
+
+#: .\home\views.py:21
+msgid "Day 3"
+msgstr "ദിവസം 3"
+
+#: .\home\views.py:21
+msgid "Day 4"
+msgstr "ദിവസം 4"
+
+#: .\home\views.py:21
+msgid "Day 5"
+msgstr "ദിവസം 5"
+
+#: .\templates\index.html:11
+msgid "E.g., New York, London, Tokyo"
+msgstr ""
+
+#: .\templates\index.html:20
+#, fuzzy
+#| msgid "Temperature:"
+msgid "Temperature"
+msgstr "താപനില:"
+
+#: .\templates\index.html:21
+#, fuzzy
+#| msgid "Wind:"
+msgid "Wind"
+msgstr "കാറ്റ്:"
+
+#: .\templates\index.html:22
+#, fuzzy
+#| msgid "Humidity:"
+msgid "Humidity"
+msgstr "ഈർപ്പം:"
+
+#: .\weather\settings.py:118
+msgid "English"
+msgstr ""
+
+#: .\weather\settings.py:119
+msgid "Malayalam"
+msgstr ""
+
+#: .\weather\settings.py:120
+msgid "Hindi"
+msgstr ""
+
+#: .\weather\urls.py:26
+msgid "admin/"
+msgstr ""

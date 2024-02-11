@@ -1,0 +1,39 @@
+{% extends 'navbar.html' %}
+{% load bootstrap4 %}
+
+{% load static %}
+
+
+{% block content %}
+<!-- content -->
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-12 text-center">
+            <h1 class="about-heading mt-0">About <span class="highlight">Weather</span><span class="highlight">Wise</span></h1>
+            <hr class="divider my-4 bg-dark">
+            <p class="text-muted mb-5">Bringing you the latest in weather trends and forecasts.</p>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-lg-6">
+            <div class="card bg-light shadow-lg p-3 mb-5 bg-white rounded">
+                <div class="card-body text-center">
+                    <h2 class="mission-vision-heading">Our Mission</h2>
+                    <p class="mission-vision-text">We at WeatherWise are dedicated to spreading awareness about the latest weather trends and forecasts. Our mission is to provide accurate and timely information to help individuals and communities prepare for any weather-related challenges.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="card bg-light shadow-lg p-3 mb-5 bg-white rounded">
+                <div class="card-body text-center">
+                    <h2 class="mission-vision-heading">Our Vision</h2>
+                    <p class="mission-vision-text">Our vision is to become a trusted source of weather information globally. We aim to empower people with the knowledge and resources they need to make informed decisions to protect themselves, their families, and their communities from weather-related risks.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+
+

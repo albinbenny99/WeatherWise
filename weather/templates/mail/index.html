@@ -1,0 +1,46 @@
+{% extends 'navbar.html' %}
+{% block title %}Home{% endblock %}
+{% load static %}
+
+{% block content %}
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-md-4 mb-4">
+                                <img src="{% static 'images/eemail.png' %}" class="img-fluid rounded-circle" alt="Email Image">
+                            </div>
+                            <div class="col-md-8">
+                                <h2 class="text-center text-primary mb-4 font-italic" style="color: #FF6347;">WeatherWise <br> Newsletter</h2>
+                                <form method="post" action="{% url 'index' %}">
+                                    {% csrf_token %}
+                                    <div class="form-group">
+                                        <label for="email" class="text-primary" style="color: #4169E1;">Stay up to date with our latest news and services.</label>
+                                        <input type="email" id="email" name="email" class="form-control mt-2" placeholder="Enter your email">
+                                    </div>
+                                    <button type="submit" class="btn btn-primary mt-3" style="background-color: #FF6347; border-color: #FF6347;">Subscribe</button>
+                                    {% if form.errors %}
+                                        {% for field in form %}
+                                            {% for error in field.errors %}
+                                                <div class="alert alert-danger mt-3" role="alert" style="background-color: #FFC0CB; border-color: #FFC0CB;">
+                                                    {{ error|escape }}
+                                                </div>
+                                            {% endfor %}
+                                        {% endfor %}
+                                        {% for error in form.non_field_errors %}
+                                            <div class="alert alert-danger mt-3" role="alert" style="background-color: #FFC0CB; border-color: #FFC0CB;">
+                                                {{ error|escape }}
+                                            </div>
+                                        {% endfor %}
+                                    {% endif %}
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
